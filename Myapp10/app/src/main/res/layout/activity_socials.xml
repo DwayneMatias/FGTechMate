@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF151515"
+    tools:context=".Socials">
+
+
+  <ImageView
+      android:id="@+id/imageView21"
+      android:layout_width="236dp"
+      android:layout_height="170dp"
+      android:layout_marginBottom="653dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:srcCompat="@drawable/fglogo"
+      tools:ignore="MissingConstraints" />
+
+  <ImageView
+      android:id="@+id/imageView7"
+      android:layout_width="383dp"
+      android:layout_height="246dp"
+      android:layout_marginStart="12dp"
+      android:layout_marginTop="143dp"
+      android:layout_marginEnd="16dp"
+      android:layout_marginBottom="434dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:srcCompat="@drawable/carriageimage" />
+
+  <TextView
+      android:id="@+id/textView11"
+      android:layout_width="383dp"
+      android:layout_height="86dp"
+      android:layout_marginStart="16dp"
+      android:layout_marginTop="415dp"
+      android:layout_marginEnd="12dp"
+      android:layout_marginBottom="322dp"
+      android:gravity="center"
+      android:text="The carriage is a platform located in front of the forklift mast that is used to mount objects to be controlled by the mast. This includes the forks of the forklift, the load backrest and other features of a forklift truck that come in direct contact with the loads."
+      android:textColor="@color/white"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.0"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.0" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

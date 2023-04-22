@@ -1,0 +1,26 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.MyApp10" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/black</item>
+        <item name="colorSecondaryVariant">#424242</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/black</item>
+        <!-- Customize your theme here. -->
+        <item name= "colorAccent">@color/cardview_dark_background</item>
+
+
+    </style>
+
+    <color name="card1">#000000</color>
+    <color name="card2">#101010</color>
+    <color name="card3">#202020</color>
+    <color name="card4">#000000</color>
+    <color name="card5">#323232</color>
+    <color name="card6">#303030</color>
+    <color name="card7">#000000</color>
+
+</resources>

@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#151515"
+    tools:context=".battery">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/edit2"
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="196dp"
+            android:background="@drawable/rounded_edittext"
+            android:ems="10"
+            android:fontFamily="sans-serif-black"
+            android:inputType="number"
+            android:maxLength="3"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toStartOf="@+id/edit3"
+            app:layout_constraintHorizontal_bias="0.464"
+            app:layout_constraintStart_toEndOf="@+id/edit1"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/calculateButton"
+            android:layout_width="134dp"
+            android:layout_height="52dp"
+            android:layout_marginBottom="119dp"
+            android:backgroundTint="#F88966"
+            android:text="Calculate"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="164dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="Plate "
+            android:textAlignment="center"
+            android:textColor="#E67450"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="@+id/edit3"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/edit3"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/edit1"
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="196dp"
+            android:background="@drawable/rounded_edittext"
+            android:ems="10"
+            android:fontFamily="sans-serif-black"
+            android:inputType="number"
+            android:maxLength="2"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="164dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="Amp "
+            android:textAlignment="center"
+            android:textColor="#E67450"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="@+id/edit2"
+            app:layout_constraintHorizontal_bias="0.47"
+            app:layout_constraintStart_toStartOf="@+id/edit2"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/resetbutton"
+            android:layout_width="88dp"
+            android:layout_height="49dp"
+            android:backgroundTint="@color/cardview_dark_background"
+            android:text="Reset"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/calculateButton" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="57dp"
+            android:layout_height="53dp"
+            android:layout_marginTop="304dp"
+            android:layout_marginEnd="20dp"
+            android:fontFamily="sans-serif-black"
+            android:text="AH"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/textview2"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="365dp"
+            android:layout_height="141dp"
+            android:fontFamily="sans-serif-condensed-light"
+            android:gravity="center"
+            android:text="Nearly all batteries are marked with a type of model or designation and a serial number that normally contains a coded date of manufacture. Nearly all battery manufucturers stamp this information on the inter-cell connector strap joining the first two cells at the positive end of the battery."
+            android:textColor="@color/white"
+            android:textSize="17sp"
+            app:layout_constraintBottom_toTopOf="@+id/calculateButton"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="164dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="Cells"
+            android:textAlignment="center"
+            android:textColor="#E67450"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="@+id/edit1"
+            app:layout_constraintHorizontal_bias="0.519"
+            app:layout_constraintStart_toStartOf="@+id/edit1"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textview2"
+            android:layout_width="150dp"
+            android:layout_height="63dp"
+            android:layout_marginTop="299dp"
+            android:layout_marginEnd="75dp"
+            android:autoSizeTextType="uniform"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textview3"
+            android:layout_width="121dp"
+            android:layout_height="63dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="300dp"
+            android:autoSizeTextType="uniform"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="47dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="303dp"
+            android:fontFamily="sans-serif-black"
+            android:text="V"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            app:layout_constraintEnd_toStartOf="@+id/textview2"
+            app:layout_constraintStart_toEndOf="@+id/textview3"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textview11"
+            android:layout_width="203dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="416dp"
+            android:layout_marginBottom="350dp"
+            android:autoSizeTextType="uniform"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="34sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/textView31"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="DuplicateIds" />
+
+        <EditText
+            android:id="@+id/edit3"
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="196dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/rounded_edittext"
+            android:ems="10"
+            android:fontFamily="sans-serif-black"
+            android:inputType="number"
+            android:maxLength="2"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="152dp"
+            android:layout_height="132dp"
+            android:layout_marginTop="4dp"
+            app:layout_constraintEnd_toEndOf="@+id/edit3"
+            app:layout_constraintHorizontal_bias="0.479"
+            app:layout_constraintStart_toStartOf="@+id/edit1"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/fglogo" />
+
+        <TextView
+            android:id="@+id/textView31"
+            android:layout_width="109dp"
+            android:layout_height="77dp"
+            android:layout_marginStart="48dp"
+            android:layout_marginTop="416dp"
+            android:layout_marginEnd="254dp"
+            android:layout_marginBottom="353dp"
+            android:fontFamily="sans-serif-black"
+            android:text="Recommended Charger AH"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</ScrollView>
+
